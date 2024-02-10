@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@400;500&family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="lib">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./images/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy,we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="p1">Let's find some poscast to follow</p>
+                        <p class="p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+
+            <div class="sticky-nav">
+
+                <div class="sticky-icons">
+                    <img src="./images/backward_icon.png" alt="">
+                    <img class="hide" src="./images/forward_icon.png" alt="">
+                </div>
+                <div class="sticky-option">
+                    <button class="badge hide">Explore Primium</button>
+                    <button class="badge dark-badge"><i class="fa-solid fa-download"></i>Install App</button>
+                    <i class="fa-regular fa-bell right-icon bell"></i>
+                    <i class="fa-regular fa-user right-icon user"></i>
+                </div>
+
+            </div>
+
+
+            <div class="middle-section">
+                <h2 style="margin-top: 9px;">Recently played</h2>
+                <div class="card-container">
+                    <div class="cards">
+
+                        <img src="./images/darshan.jpeg" alt="" class="card-img"
+                            style="height: 172px;border-radius: 50%;">
+                        <p class="card-title">Darshan Raval</p>
+                        <p class="card-info">Artist</p>
+
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h2>Your top mixes</h2>
+                <div class="card-container">
+                    <div class="cards">
+                        <img src="./images/pritam.jpeg" alt="" class="card-img">
+                        <p class="card-title">Pritam Mix</p>
+                        <p class="card-info">Darshan Raval ,Mohit Chauhan and Sohail...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/darshan2.jpeg" alt="" class="card-img">
+                        <p class="card-title">Darshan Raval Mix</p>
+                        <p class="card-info">Mohit Chauhan, Rochak Kohli and...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/romantic.jpeg" alt="" class="card-img">
+                        <p class="card-title">Romantic Mix</p>
+                        <p class="card-info">Vishal Mishra, Atif Aslam, Pritam and...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/moody.jpeg" alt="" class="card-img">
+                        <p class="card-title">Moody Mix</p>
+                        <p class="card-info">Stebin Ben, Rahat Fatah Ali Khan, Hari...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/pop.jpeg" alt="" class="card-img">
+                        <p class="card-title">Pop Mix</p>
+                        <p class="card-info">Lewis Capaldi, Lady Gaga, Alec Benjami...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Todays biggest hits</h2>
+                <div class="card-container">
+                    <div class="cards">
+                        <img src="./images/megahit.jpeg" alt="" class="card-img">
+                        <p class="card-title">Mega Hit Mix</p>
+                        <p class="card-info">A mega mix of 75 favourites from the la...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/popshot.jpeg" alt="" class="card-img">
+                        <p class="card-title">Pop Shot Mix</p>
+                        <p class="card-info">All your pop favourites! Cover:Alec Benjamin...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/bollywood.jpeg" alt="" class="card-img">
+                        <p class="card-title">Bollywood Central</p>
+                        <p class="card-info">Bollywood Central, jab baje to seedha...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/moodymix.jpeg" alt="" class="card-img">
+                        <p class="card-title">Hot Hits Punjabi</p>
+                        <p class="card-info">Catch the hottest Punjabi tracks with...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/popmix.jpeg" alt="" class="card-img">
+                        <p class="card-title">Best Of Kollywood</p>
+                        <p class="card-info">Best performed tracks of Kollywood...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2>Popular radio</h2>
+                <div class="card-container">
+                    <div class="cards">
+                        <img src="./images/arijit" alt="" class="card-img">
+                        <p class="card-title">Arijit Singh Radio</p>
+                        <p class="card-info">With Neha Kakkar,Pritam, KK and more...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/sidhu" alt="" class="card-img">
+                        <p class="card-title">Sidhu Moose Wala</p>
+                        <p class="card-info">With Ammy Wirk, Amrit Maan, Karan...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/kumar" alt="" class="card-img">
+                        <p class="card-title">Kumar Sanu Radio</p>
+                        <p class="card-info">With Udit Narayan, Alka yagnik,..</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/kk" alt="" class="card-img">
+                        <p class="card-title">KK Radio</p>
+                        <p class="card-info">With Ankit Tiwari,Mohit Chauhan,..</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/shubh" alt="" class="card-img">
+                        <p class="card-title">Shubh Radio</p>
+                        <p class="card-info">With Gurinder Gill, Dhillon, Tegi Pannu...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="cards">
+                        <img src="./images/card5img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/card6img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top Songs India</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./images/card1img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                        <div class="play-icon">
+                            <div class="circle">
+                                <div class="tri">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="footer1">
+                    <div class="footer1-para">
+                        <div class="footer-p">
+                            <p class="bold">Company </p>
+                            <a href="" class="rest">About</a>
+                            <a href="" class="rest">Jobs</a>
+                            <a href="" class="rest">For the record</a>
+                        </div>
+                        <div class="footer-p">
+                            <p class="bold">Communities</p>
+                            <a href="" class="rest">For artist</a>
+                            <a href="" class="rest">Developers</a>
+
+                            <a href="" class="rest">Advertising</a>
+                            <a href="" class="rest">Investors</a>
+                            <a href="" class="rest">Vendors</a>
+
+                        </div>
+                        <div class="footer-p">
+                            <p class="bold">Useful links</p>
+                            <a href="" class="rest">Supports</a>
+                            <a href="" class="rest">Free Mobile app</a>
+                        </div>
+                    </div>
+                    <div class="footer-media">
+                        <a href=""><i class="fa-brands fa-instagram icons"></i></a>
+                        <i class="fa-brands fa-twitter icons"></i>
+                        <i class="fa-brands fa-facebook icons"></i>
+                    </div>
+
+                </div>
+                <div class="middle-line">
+                    <div class="line1">
+
+                    </div>
+                </div>
+                <div class="footer2">
+                    <div class="left">
+                        <a href="">Legal</a>
+                        <a href="">Privacy Center</a>
+                        <a href="">Privacy Policies</a>
+                        <a href="">Cookies</a>
+                        <a href="">About Ads</a>
+                        <a href="">Accessibility</a>
+                    </div>
+                    <div class="right">
+                        <i class="fa-regular fa-copyright"></i>
+                        <p>2023Spotify AB</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="./images/mahiye.jpeg" alt="" class="img">
+                </div>
+                <div class="para">
+                    <p class="title">Mahiye Jinne Sohna</p>
+                    <p class="artist">Darshan Raval</p>
+                </div>
+                <div class="album-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="hidden-icon">
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-house"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./images/player_icon1.png" alt="" class="player-control-icons">
+                    <img src="./images/player_icon2.png" alt="" class="player-control-icons">
+                    <img src="./images/player_icon3.png" alt="" class="player-control-icons"
+                        style="opacity: 1; height: 2rem;">
+                    <img src="./images/player_icon4.png" alt="" class="player-control-icons">
+                    <img src="./images/player_icon5.png" alt="" class="player-control-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">1:01</span>
+                    <div class="range-outer">
+                        <div class="line"></div>
+                        <input type="range" min="0" max="100" class="song-range" value="30">
+                    </div>
+                    <span class="tot-time">3:23</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-link"></i>
+                <i class="fa-solid fa-volume-high"></i>
+
+                <div class="vol-outer">
+                    <div class="vol-line"></div>
+                    <input type="range" class="vol-range" max="100" min="0" value="50">
+                </div>
+
+                <div class="miniplayer">
+                    <div class="square">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="file.js"></script>
+
+</body>
+
+</html>
